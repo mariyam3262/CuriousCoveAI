@@ -1,4 +1,5 @@
 import  { useRef, useState } from "react";
+import API_KEY from '../../src/apiConfig'
 
 const ChatAI = () => {
   /**
@@ -16,7 +17,7 @@ const ChatAI = () => {
   const StringRef = useRef("")
 
   const API_URL = "https://api.openai.com/v1/chat/completions";
-  const API_KEY = "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";
+  // const API_KEY = API_KEY;
 
  
 
